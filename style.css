@@ -2,4 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"); */
-
+:root {
+    --primary-color: #28cb8b;
+    --brand-primary-color: #4caf4f;
+    --secondary-color: #263238;
+    --info-color: #2194f3;
+    --light-gray-color: #89939e;
+    --gray-color: #717171;
+    --dark-gray-color: #4d4d4d;
+    --gray-blue-color: #abbed1;
+    --text-gray-900: #18191f;
+    --text-gray-300: #d9dbe1;
+    --silver-color: #f5f7fa;
+    --default-white: #ffffff;
+    --shade1-color: #43a046;
+    --shade2-color: #388e3b;
+    --shade3-color: #237d31;
+    --shade4-color: #1b5e1f;
+    --shade5-color: #103e13;
+    --tint1-color: #66bb69;
+    --tint2-color: #81c784;
+    --tint3-color: #a5d6a7;
+    --tint4-color: #c8e6c9;
+    --tint5-color: #e8f5e9;
+    --warning-color: #fbc02d;
+    --error-color: #e53835;
+    --success-color: #2e7d31;
+  }
+  
+  /* SIZES */
+  :root {
+    --heading-1: 4rem;
+    --heading-2: 2.25rem;
+    --heading-3: 1.75rem;
+    --heading-4: 1.25rem;
+    --text-1_125rem: 1.125rem;
+    --text-1rem: 1rem;
+    --text-0_875rem: 0.875rem;
+    --text-0_75rem: 0.75rem;
+  }
+body{
+    margin: auto;
+}
+.menu-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 5.25rem;
+  }
+  
+ 
+  .hero-container {
+    /* padding-block: 6rem; */
+    gap: 6.5rem;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .hero-container .left {
+    flex: 2;
+  }
+  .hero-container .left h1 {
+    font-size: var(--heading-1);
+    color: var(--dark-gray-color);
+    font-weight: 600;
+    line-height: 4.75rem;
+  }
+  
+  .hero-container .left p {
+    color: var(--gray-color);
+    font-size: var(--text-1rem);
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-block: 1rem 2rem;
+  }
+  .hero-container .right img {
+    max-width: 324px;
+    border-radius: 1em;
+    margin-left: auto;
+    display: block;
+  }
